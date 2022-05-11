@@ -14,6 +14,13 @@
         <link href="../resources/css/styles.css" rel="stylesheet" />
     </head>
     <body>
+    	<script type="text/javascript">
+    		var check=${check};
+    			var message = "${rsltMsg}"
+    			if(check == 2)
+    				alert(message);
+    	</script>
+    
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
@@ -57,15 +64,15 @@
                     <form action="/register" method="post">
                     <table bolder="1">
                     	<tr><th width="70">ID:</th> <td><input type="text" name="userId" size="23"></td></tr> 
-                    <tr><th width="70">PW:</th> <td><input type="text" name="userPw" size="23"></td></tr>
-                    <tr><th width="70">Name:</th> <td><input type="text" name="userName" size="23"></td></tr>
-                    <tr><th width="70">Gender:</th> <td><input type="text" name="userGender" size="23"></td></tr>
-                    <tr><th width="70">Email:</th> <td><input type="text" name="userEmail" size="23"></td></tr>
+                  		<tr><th width="70">PW:</th> <td><input type="text" name="userPw" size="23"></td></tr>
+                    	<tr><th width="70">Name:</th> <td><input type="text" name="userName" size="23"></td></tr>
+                    	<tr><th width="70">Gender:</th> <td><input type="text" name="userGender" size="23"></td></tr>
+                  	    <tr><th width="70">Email:</th> <td><input type="text" name="userEmail" size="23"></td></tr>
                     <tr align="center">
-					<td colspan="2">
-                    <input type="submit" value="submit">
-					<input type="reset" value="reset">
-					</td>
+						<td colspan="2">
+		                    <input type="submit" value="submit">
+							<input type="reset" value="reset">
+						</td>
 					</tr>
                     </table>
                     </form>
