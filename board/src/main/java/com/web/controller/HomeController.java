@@ -39,4 +39,24 @@ public class HomeController {
 			
 			return "select";
 		}
+		
+		@RequestMapping("/write")
+		public String write(Model model) {
+			return "write";
+		}
+		
+		@RequestMapping("/delete")
+		public String delete(Model model) {
+			return "delete";
+		}
+		
+		@RequestMapping("/widthraw")
+		public String widthraw(Model model) {
+			return "widthraw";
+		}
+		
+		@RequestMapping("/user")
+		public String user(Model model) {
+			return "user";
+		}
 }

@@ -54,7 +54,21 @@
                 <!-- Page content-->
                 <div class="container-fluid">
                     <h1 class="mt-4">회원가입</h1>
-                    <p>정보를 입력하여 회원가입을 진행하는 페이지</p>
+                    <form action="/register" method="post">
+                    <table bolder="1">
+                    	<tr><th width="70">ID:</th> <td><input type="text" name="userId" size="23"></td></tr> 
+                    <tr><th width="70">PW:</th> <td><input type="text" name="userPw" size="23"></td></tr>
+                    <tr><th width="70">Name:</th> <td><input type="text" name="userName" size="23"></td></tr>
+                    <tr><th width="70">Gender:</th> <td><input type="text" name="userGender" size="23"></td></tr>
+                    <tr><th width="70">Email:</th> <td><input type="text" name="userEmail" size="23"></td></tr>
+                    <tr align="center">
+					<td colspan="2">
+                    <input type="submit" value="submit">
+					<input type="reset" value="reset">
+					</td>
+					</tr>
+                    </table>
+                    </form>
                 </div>
             </div>
         </div>
