@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Simple Sidebar - Start Bootstrap Template</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -18,14 +17,12 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Start Bootstrap</div>
+                <div class="sidebar-heading border-bottom bg-light">목록</div>
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="register">"회원가입"</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Shortcuts</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Overview</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Events</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="register">회원가입</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="boardList">게시물 조회</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">게시글 등록</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">회원 탈퇴</a>
                 </div>
             </div>
             <!-- Page content wrapper-->
@@ -33,7 +30,7 @@
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
-                        <button class="btn btn-primary" id="sidebarToggle">Toggle Menu</button>
+                        <button class="btn btn-primary" id="sidebarToggle">메뉴</button>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
@@ -54,7 +51,7 @@
                 </nav>
                 <!-- Page content-->
                 <div class="container-fluid">
-                    <h1 class="mt-4">Simple Sidebar</h1>
+                    <h1 class="mt-4">Home Page</h1>
                     <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
                     <p>
                         Make sure to keep all page content within the

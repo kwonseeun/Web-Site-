@@ -24,7 +24,7 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Start Bootstrap</div>
+                <div class="sidebar-heading border-bottom bg-light">목록</div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="register">회원가입</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="user">회원조회</a>

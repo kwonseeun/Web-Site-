@@ -58,6 +58,7 @@ public class HomeController {
 		
 		@RequestMapping("/write")
 		public String write(Model model) {
+			
 			return "write";
 		}
 		
@@ -74,5 +75,10 @@ public class HomeController {
 		@RequestMapping("/user")
 		public String user(Model model) {
 			return "user";
+		}
+		
+		@RequestMapping("/boardList")
+		public String userList(Model model) {
+			return "boardList";
 		}
 }
